@@ -7,17 +7,17 @@
   <!--Leave these links here...
   But this should be in a comment...-->
   <link href="https://fonts.googleapis.com/css?family=Cormorant|Poppins:300,400" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
   <div class="app">
     <nav class="app__nav">
-      <div class="app__nav">
+      <div class="container">
         <div class="top-nav">
-          <h1 class="top-nav__left">Shia LaBeouf</h1>
+          <h1 class="top-nav__left">Kelly Clemons</h1>
 
-          <div class="abc__second">
+          <div class="top-nav__left">
             <ul class="nav-list">
               <li class="nav-list__item">
                 <a class="nav-list__link" href="#welcome">Welcome</a>
@@ -37,14 +37,14 @@
       </div>
     </nav>
   </div>
-    <div class="bender__content">
-      <section class="area-of-control area-of-control--zapp" id="welcome">
-        <div class="box">
-          <div class="section">
-            <div class="zapp__thing">
-              <h2 class="section__heading">This is something interesting about me.</h2>
+    <div class="app__content">
+      <section class="section" id="welcome">
+        <div class="section--hero">
+          <div class="hero">
+            <div class="hero__item">
+              <h2 class="hero__text">This is something interesting about me.</h2>
             </div>
-            <div class="zapp__thing">
+            <div class="media__right">
               <img src="http://www.bobbyberberyan.com/wp-content/uploads/2012/03/HTML5CSS3Logos.svg" alt="" class="zapp__img">
             </div>
           </div>
@@ -52,66 +52,65 @@
       </section>
     </div>
       <div class="section">
-        <div class="box">
+        <div class="container">
           <h2 class="section__heading">I'm an interesting person!</h2>
 
-          <div class="leela">
-            <div class="leela__thing">
-              <div class="blackjack">
-                <div class="twitter">
-                  <div class="twitter__first">
-                    <span class="morty morty--blue">
+          <div class="grid">
+            <div class="grid__item">
+              <div class="card">
+                <div class="media">
+                  <div class="media__right">
+                    <span class="circle-icon--primary">
                       <span class="fa fa-fw fa-user fa-2x"></span>
                     </span>
                   </div>
 
-                  <div class="twitter__second">
-                    <h3>My interest goes here</h3>
+                  <div class="media__right h3">
+                    <h3>My Dogs</h3>
 
                     <p>
-                      I'm going to write something about my interests here.
-                      Each blackjack contents should say things about what I like.
+                      I seriously love dogs and have two of them in my family.
+                      One is a border-collie mix and the other is a complete mystery to us.
                     </p>
                   </div>
                 </div>
               <div>
             </div>
 
-            <div class="leela__thing">
-              <div class="blackjack">
-                <div class="twitter">
-                  <div class="twitter__first">
-                    <span class="morty morty--green">
+            <div class="grid__item">
+              <div class="card">
+                <div class="media">
+                  <div class="media__right">
+                    <span class="circle-icon--success">
                       <span class="fa fa-fw fa-user fa-2x"></span>
                     </span>
                   </div>
 
-                  <div class="twitter__second">
-                    <h3>Wow another interest!</h3>
+                  <div class="media__right h3">
+                    <h3>Music</h3>
 
                     <p>
-                      There are a few different versions of the "circle-icon".
-                      Each of these cards should have a different one!
+                      I love discovering new music and I'm currently in the process of learning how to play the piano.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="leela__thing">
-              <div class="blackjack">
-                <div class="twitter">
-                  <div class="twitter__first">
-                    <span class="morty morty--danger">
+            <div class="grid__item">
+              <div class="card">
+                <div class="media">
+                  <div class="media__right">
+                    <span class="circle-icon--warning">
                       <span class="fa fa-fw fa-user fa-2x"></span>
                     </span>
                   </div>
 
-                  <div class="twitter__second">
-                    <h3>Here's a 3rd interest of mine</h3>
+                  <div class="media__right h3">
+                    <h3>The Outdoors</h3>
 
                     <p>
-                      These icons should be changed using font-awesome.
+                      I love being out in the sun doing things like going to the beach, golfing, hiking, and running,
                     </p>
                   </div>
                 </div>
@@ -126,17 +125,17 @@
       <div class="area-of-control" id="catchphrases">
         <h2 class="area-of-control__heading">My Favorite Quotes</h2>
 
-        <div class="box">
-          <div class="leela">
-            <div class="leela__thing leela__thing--forth">
-              <figure class="catchphrase">
-                <div class="catchphrase__blackjack">
-                  <p class="catchphrase__xxx">
-                    If you’re following your calling, the fatigue will be easier to bear, the disappointments will be fuel, the highs will be like nothing you’ve ever felt.
+        <div class="container">
+          <div class="grid">
+            <div class="grid__item grid__item--quarter">
+              <figure class="quote">
+                <div class="quote__card">
+                  <p class="quote__text">
+                    They don't think it be like it is, but it do.
                   </p>
                 </div>
                 <figcaption class="catchphrase__zzz">
-                  <span><img class="catchphrase__yyy" src="https://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
+                  <span><img class="quote__pic" src="https://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
 
                   <div class="side-by-side">
                     <h4 class="catchphrase__character">Shia LaBeouf</h4>
@@ -146,15 +145,15 @@
               </figure>
             </div>
 
-            <div class="leela__thing leela__thing--forth">
-              <figure class="catchphrase">
-                <div class="catchphrase__blackjack">
-                  <p class="catchphrase__xxx">
+            <div class="grid__item grid__item--quarter">
+              <figure class="quote">
+                <div class="quote__card">
+                  <p class="quote__text">
                     Get busy living or get busy dying. Shawshank
                   </p>
                 </div>
                 <figcaption class="catchphrase__zzz">
-                  <span><img class="catchphrase__yyy" src="https://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
+                  <span><img class="quote__pic" src="https://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
 
                   <div class="side-by-side">
                     <h4 class="catchphrase__character">Shia LaBeouf</h4>
@@ -164,15 +163,15 @@
               </figure>
             </div>
 
-            <div class="leela__thing leela__thing--forth">
-              <figure class="catchphrase">
-                <div class="catchphrase__blackjack">
-                  <p class="catchphrase__xxx">
+            <div class="grid__item grid__item--quarter">
+              <figure class="quote">
+                <div class="quote__card">
+                  <p class="quote__text">
                     I know not all that may be coming, but be it what it will, I'll go to it laughing. Moby Dick
                   </p>
                 </div>
                 <figcaption class="catchphrase__zzz">
-                  <span><img class="catchphrase__yyy" src="https://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
+                  <span><img class="quote__pic" src="https://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
 
                   <div class="side-by-side">
                     <h4 class="catchphrase__character">Shia LaBeouf</h4>
@@ -182,15 +181,15 @@
               </figure>
             </div>
 
-            <div class="leela__thing leela__thing--forth">
-              <figure class="catchphrase">
-                <div class="catchphrase__blackjack">
-                  <p class="catchphrase__xxx">
-                    They don't think it be like it is, but it do
+            <div class="grid__item grid__item--quarter">
+              <figure class="quote">
+                <div class="quote__card">
+                  <p class="quote__text">
+                    If you’re following your calling, the fatigue will be easier to bear, the disappointments will be fuel, the highs will be like nothing you’ve ever felt.
                   </p>
                 </div>
                 <figcaption class="catchphrase__zzz">
-                  <span><img class="catchphrase__yyy" src="https://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
+                  <span><img class="quote__pic" src="https://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
 
                   <div class="side-by-side">
                     <h4 class="catchphrase__character">Shia LaBeouf</h4>
@@ -204,41 +203,41 @@
       </div>
 
       <div class="area-of-control area-of-control__photos" id="photos">
-        <div class="box">
-          <div class="leela">
-            <div class="leela__thing">
-              <div class="blackjack">
-                <div class="blackjack__photo">
+        <div class="container">
+          <div class="grid">
+            <div class="grid__item">
+              <div class="card">
+                <div class="card__image">
                   <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNDg1NTU2OWEtM2UzYi00ZWRmLWEwMTktZWNjYWQ1NWM1OThjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,674,1000_AL_.jpg" alt="" class="blackjack__photo-pic">
                 </div>
 
-                <div class="blackjack__detail">
+                <div class="card__caption">
                   <h3>Transformers</h3>
                   <h4>Sam Witwicky</h4>
                 </div>
               </div>
             </div>
 
-            <div class="leela__thing">
-              <div class="blackjack">
-                <div class="blackjack__photo">
+            <div class="grid">
+              <div class="card">
+                <div class="card__image">
                   <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTIxNDUxNzcyMl5BMl5BanBnXkFtZTcwNTgwOTI3MQ@@._V1_.jpg" alt="" class="blackjack__photo-pic">
                 </div>
 
-                <div class="blackjack__detail">
+                <div class="card__caption">
                   <h3>Indiana Jones and the Kingdom of the Crystal Skull</h3>
                   <h4>Mutt Williams</h4>
                 </div>
               </div>
             </div>
 
-            <div class="leela__thing">
-              <div class="blackjack">
-                <div class="blackjack__photo">
+            <div class="grid__item">
+              <div class="card">
+                <div class="card__image">
                   <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5MTMzMDMzNl5BMl5BanBnXkFtZTcwMzUwNDUzMw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg" alt="" class="blackjack__photo-pic">
                 </div>
 
-                <div class="blackjack__detail">
+                <div class="card__caption">
                   <h3>Eagle Eye</h3>
                   <h4>Sam Witwicky</h4>
                 </div>
