@@ -6,6 +6,7 @@
 
   <!--Leave these links here...
   But this should be in a comment...-->
+
   <link href="https://fonts.googleapis.com/css?family=Cormorant|Poppins:300,400" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles/styles.css">
@@ -26,7 +27,7 @@
                 <a class="nav-list__link" href="#about">About</a>
               </li>
               <li class="nav-list__item">
-                <a class="nav-list__link" href="#catchphrases">Quotes</a>
+                <a class="nav-list__link" href="#quotess">Quotes</a>
               </li>
               <li class="nav-list__item">
                 <a class="nav-list__link" href="#photos">Photos</a>
@@ -36,21 +37,20 @@
         </div>
       </div>
     </nav>
-  </div>
     <div class="app__content">
-      <section class="section" id="welcome">
-        <div class="section--hero">
+      <section class="section section--hero" id="welcome">
+        <div class="container">
           <div class="hero">
             <div class="hero__item">
-              <h2 class="hero__text">This is something interesting about me.</h2>
+              <h2 class="hero__text">This is something interesting about me</h2>
             </div>
-            <div class="media__right">
-              <img src="http://www.bobbyberberyan.com/wp-content/uploads/2012/03/HTML5CSS3Logos.svg" alt="" class="zapp__img">
+            <div class="hero__item">
+              <img src="http://www.bobbyberberyan.com/wp-content/uploads/2012/03/HTML5CSS3Logos.svg" alt="" class="hero__img">
             </div>
           </div>
         </div>
       </section>
-    </div>
+
       <div class="section">
         <div class="container">
           <h2 class="section__heading">I'm an interesting person!</h2>
@@ -60,37 +60,17 @@
               <div class="card">
                 <div class="media">
                   <div class="media__right">
-                    <span class="circle-icon--primary">
-                      <span class="fa fa-fw fa-user fa-2x"></span>
+                    <span class="circle-icon circle-icon--primary">
+                      <span class="fa fa-fw fa-heart fa-2x"></span>
                     </span>
                   </div>
 
-                  <div class="media__right h3">
+                  <div class="media__right">
                     <h3>My Dogs</h3>
 
                     <p>
-                      I seriously love dogs and have two of them in my family.
+                      I absolutely love dogs and have two of them in my family.
                       One is a border-collie mix and the other is a complete mystery to us.
-                    </p>
-                  </div>
-                </div>
-              <div>
-            </div>
-
-            <div class="grid__item">
-              <div class="card">
-                <div class="media">
-                  <div class="media__right">
-                    <span class="circle-icon--success">
-                      <span class="fa fa-fw fa-user fa-2x"></span>
-                    </span>
-                  </div>
-
-                  <div class="media__right h3">
-                    <h3>Music</h3>
-
-                    <p>
-                      I love discovering new music and I'm currently in the process of learning how to play the piano.
                     </p>
                   </div>
                 </div>
@@ -101,12 +81,33 @@
               <div class="card">
                 <div class="media">
                   <div class="media__right">
-                    <span class="circle-icon--warning">
-                      <span class="fa fa-fw fa-user fa-2x"></span>
+                    <span class="circle-icon circle-icon--success">
+                      <span class="fa fa-fw fa-music fa-2x"></span>
                     </span>
                   </div>
 
-                  <div class="media__right h3">
+                  <div class="media__right">
+                    <h3>Music</h3>
+
+                    <p>
+                      I love discovering new music and
+                      I'm currently in the process of learning how to play the piano.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid__item">
+              <div class="card">
+                <div class="media">
+                  <div class="media__right">
+                    <span class="circle-icon circle-icon--warning">
+                      <span class="fa fa-fw fa-sun-o fa-2x"></span>
+                    </span>
+                  </div>
+
+                  <div class="media__right">
                     <h3>The Outdoors</h3>
 
                     <p>
@@ -120,10 +121,10 @@
         </div>
       </div>
 
-      <div class="area-of-control area-of-control--paralax"></div>
+      <div class="section section--slidey-picture"></div>
 
-      <div class="area-of-control" id="catchphrases">
-        <h2 class="area-of-control__heading">My Favorite Quotes</h2>
+      <div class="section" id="catchphrases">
+        <h2 class="section__heading">My Favorite Quotes</h2>
 
         <div class="container">
           <div class="grid">
@@ -134,12 +135,12 @@
                     They don't think it be like it is, but it do.
                   </p>
                 </div>
-                <figcaption class="catchphrase__zzz">
-                  <span><img class="quote__pic" src="https://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
+                <figcaption class="quote__attribution">
+                  <span><img class="quote__pic" src="https://pbs.twimg.com/profile_images/1958400195/image.jpg" alt=""></span>
 
-                  <div class="side-by-side">
-                    <h4 class="catchphrase__character">Shia LaBeouf</h4>
-                    <p class="catchphrase__show">Transformers</p>
+                  <div class="text-stack">
+                    <h4 class="quote__character">Oscar Gamble</h4>
+                    <p class="quote__title">The Yankees</p>
                   </div>
                 </figcaption>
               </figure>
@@ -152,12 +153,12 @@
                     Get busy living or get busy dying. Shawshank
                   </p>
                 </div>
-                <figcaption class="catchphrase__zzz">
-                  <span><img class="quote__pic" src="https://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
+                <figcaption class="quote__attribution">
+                  <span><img class="quote__pic" src="https://pbs.twimg.com/profile_images/3274345669/12f6760bd136190069eeaead6c23142c_400x400.jpeg" alt=""></span>
 
-                  <div class="side-by-side">
-                    <h4 class="catchphrase__character">Shia LaBeouf</h4>
-                    <p class="catchphrase__show">Transformers</p>
+                  <div class="text-stack">
+                    <h4 class="quote__character">Tim Robbins</h4>
+                    <p class="quote__title">The Shawshank Redemption</p>
                   </div>
                 </figcaption>
               </figure>
@@ -167,15 +168,15 @@
               <figure class="quote">
                 <div class="quote__card">
                   <p class="quote__text">
-                    I know not all that may be coming, but be it what it will, I'll go to it laughing. Moby Dick
+                    I know not all that may be coming, but be it what it will, I'll go to it laughing.
                   </p>
                 </div>
-                <figcaption class="catchphrase__zzz">
-                  <span><img class="quote__pic" src="https://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
+                <figcaption class="quote__attribution">
+                  <span><img class="quote__pic" src="https://www.biography.com/.image/t_seosocial/MTE1ODA0OTcxNzIxOTgzNTAx/herman-melville-9405239-1-402.jpg" alt=""></span>
 
-                  <div class="side-by-side">
-                    <h4 class="catchphrase__character">Shia LaBeouf</h4>
-                    <p class="catchphrase__show">Transformers</p>
+                  <div class="text-stack">
+                    <h4 class="quote__character">Herman Melville</h4>
+                    <p class="quote__title">Moby Dick</p>
                   </div>
                 </figcaption>
               </figure>
@@ -188,12 +189,12 @@
                     If you’re following your calling, the fatigue will be easier to bear, the disappointments will be fuel, the highs will be like nothing you’ve ever felt.
                   </p>
                 </div>
-                <figcaption class="catchphrase__zzz">
-                  <span><img class="quote__pic" src="https://i.kinja-img.com/gawker-media/image/upload/s--hw7ssOEj--/i6yafkokqsxxazd95fis.png" alt=""></span>
+                <figcaption class="quote__attribution">
+                  <span><img class="quote__pic" src="https://pbs.twimg.com/profile_images/509016157530365952/o_lTAWKz_400x400.jpeg" alt=""></span>
 
-                  <div class="side-by-side">
-                    <h4 class="catchphrase__character">Shia LaBeouf</h4>
-                    <p class="catchphrase__show">Transformers</p>
+                  <div class="text-stack">
+                    <h4 class="quote__character">Phil Knight</h4>
+                    <p class="quote__title">Shoe Dog</p>
                   </div>
                 </figcaption>
               </figure>
@@ -202,31 +203,18 @@
         </div>
       </div>
 
-      <div class="area-of-control area-of-control__photos" id="photos">
+      <div class="section section__photos" id="photos">
         <div class="container">
           <div class="grid">
             <div class="grid__item">
               <div class="card">
                 <div class="card__image">
-                  <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNDg1NTU2OWEtM2UzYi00ZWRmLWEwMTktZWNjYWQ1NWM1OThjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,674,1000_AL_.jpg" alt="" class="blackjack__photo-pic">
+                  <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SY1000_CR0,0,672,1000_AL_.jpg" alt="" class="card__image--pic">
                 </div>
 
                 <div class="card__caption">
-                  <h3>Transformers</h3>
-                  <h4>Sam Witwicky</h4>
-                </div>
-              </div>
-            </div>
-
-            <div class="grid">
-              <div class="card">
-                <div class="card__image">
-                  <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTIxNDUxNzcyMl5BMl5BanBnXkFtZTcwNTgwOTI3MQ@@._V1_.jpg" alt="" class="blackjack__photo-pic">
-                </div>
-
-                <div class="card__caption">
-                  <h3>Indiana Jones and the Kingdom of the Crystal Skull</h3>
-                  <h4>Mutt Williams</h4>
+                  <h3>The Shawshank Redemption</h3>
+                  <h4>Andy Dufresne</h4>
                 </div>
               </div>
             </div>
@@ -234,12 +222,25 @@
             <div class="grid__item">
               <div class="card">
                 <div class="card__image">
-                  <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5MTMzMDMzNl5BMl5BanBnXkFtZTcwMzUwNDUzMw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg" alt="" class="blackjack__photo-pic">
+                  <img src="https://images-na.ssl-images-amazon.com/images/I/511aamOnGvL._SX346_BO1,204,203,200_.jpg" alt="" class="card__image-pic">
                 </div>
 
                 <div class="card__caption">
-                  <h3>Eagle Eye</h3>
-                  <h4>Sam Witwicky</h4>
+                  <h3>Moby Dick</h3>
+                  <h4>Herman Melville</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid__item">
+              <div class="card">
+                <div class="card__image">
+                  <img src="https://images-na.ssl-images-amazon.com/images/I/51sUlL5maVL._SX329_BO1,204,203,200_.jpg" alt="" class="card__image-pic">
+                </div>
+
+                <div class="card__caption">
+                  <h3>Shoe Dog</h3>
+                  <h4>Phil Knight</h4>
                 </div>
               </div>
             </div>
@@ -248,7 +249,7 @@
       </div>
     </div>
 
-    <footer class="bender__footer">
+    <footer class="app__nav__footer">
 
     </footer>
   </div>
